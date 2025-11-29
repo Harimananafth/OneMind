@@ -1,21 +1,21 @@
 import { Instagram, Mail, Phone } from "lucide-react";
 export default function Footer() {
   return (
-    <footer className="py-10 sm:py-12 bg-base text-base-content text-white">
+    <footer className="py-10 sm:py-12 bg-base-100 text-base-content text-base-content">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 border-b border-gray-700 pb-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 border-b border-base-content/20 pb-8 mb-8">
           <div>
             <h3 className="text-2xl font-bold text-primary mb-3">OneMind</h3>
-            <p className="text-sm text-gray-400">
+            <p className="text-sm text-base-content/70">
               Ton copilote pour des événements impeccables.
             </p>
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">
+            <h4 className="text-lg font-semibold text-base-content mb-4">
               Parle-nous
             </h4>
-            <div className="space-y-2 text-sm text-gray-400">
+            <div className="space-y-2 text-sm text-base-content/70">
               <p className="flex items-center">
                 <Mail className="w-4 h-4 mr-2 text-primary" />
                 harimananafth@gmail.com
@@ -32,11 +32,11 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Explore</h4>
-            <ul className="space-y-2 text-sm text-gray-400">
+            <h4 className="text-lg font-semibold text-base-content mb-4">Explore</h4>
+            <ul className="space-y-2 text-sm text-base-content/70">
               <li>
                 <a
-                  href="#"
+                  href="#Features"
                   className="hover:text-primary transition-colors duration-150"
                 >
                   Fonctionnalités
@@ -44,7 +44,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#Testimonials"
                   className="hover:text-primary transition-colors duration-150"
                 >
                   Témoignages
@@ -52,7 +52,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#FAQ"
                   className="hover:text-primary transition-colors duration-150"
                 >
                   FAQ
@@ -70,8 +70,8 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">La Vibe</h4>
-            <p className="text-sm text-gray-300 italic p-3 border-l-4 border-primary bg-gray-800 rounded-sm transition-transform duration-300 hover:scale-[1.02]">
+            <h4 className="text-lg font-semibold text-base-content mb-4">La vibe</h4>
+            <p className="text-sm text-base-content/50 italic p-3 border-l-4 border-primary bg-base-200 rounded-sm transition-transform duration-300 hover:scale-[1.02]">
               « L'organisation de ton événement est maintenant plus simple que
               le choix de ton filtre Instagram. »
             </p>
