@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "onemind-default";
+  default: true;
+  prefersdark: true;
+  color-scheme: "dark";
+  --color-base-100: #111827;
+  --color-base-200: #1F2937;
+  --color-base-300: #374151;
+  --color-base-content: #E5E7EB;
+  --color-primary: #A855F7;
+  --color-primary-content: #111827;
+  --color-secondary: #F59E0B;
+  --color-secondary-content: #111827;
+  --color-accent: #06B6D4;
+  --color-accent-content: #111827;
+  --color-neutral: #4B5563;
+  --color-neutral-content: #E5E7EB;
+  --color-info: #2563EB;
+  --color-info-content: #FFFFFF;
+  --color-success: #10B981;
+  --color-success-content: #ffffff;
+  --color-warning: #F59E0B;
+  --color-warning-content: #111827;
+  --color-error: #DC2626;
+  --color-error-content: oklch(100% 0 0);
+  --radius-selector: 0.75rem;
+  --radius-field: 0.5rem;
+  --radius-box: 1rem;
+  --size-selector: 0.21875rem;
+  --size-field: 0.24rem;
+  --border: 1.5px;
+  --depth: 0;
+  --noise: 0;
+}
+
+@plugin "daisyui/theme" {
+  name: "onemind-light";
+  default: false;
+  prefersdark: false;
+  color-scheme: "light";
+  --color-base-100: oklch(100% 0 0);
+  --color-base-200: #F3F4F6;
+  --color-base-300: #E5E7EB;
+  --color-base-content: #1F2937;
+  --color-primary: #A855F7;
+  --color-primary-content: #1F2937;
+  --color-secondary: #F59E0B;
+  --color-secondary-content: #1F2937;
+  --color-accent: #06B6D4;
+  --color-accent-content: #1F2937;
+  --color-neutral: #D1D5DB;
+  --color-neutral-content: #374151;
+  --color-info: #2563EB;
+  --color-info-content: #ffffff;
+  --color-success: #10B981;
+  --color-success-content: oklch(100% 0 0);
+  --color-warning: #F59E0B;
+  --color-warning-content: #1F2937;
+  --color-error: #DC2626;
+  --color-error-content: oklch(100% 0 0);
+  --radius-selector: 0.75rem;
+  --radius-field: 0.5rem;
+  --radius-box: 1rem;
+  --size-selector: 0.21875rem;
+  --size-field: 0.24rem;
+  --border: 1.5px;
+  --depth: 0;
+  --noise: 0;
+}
+@theme {
+  --color-tomato: #ff6347;
+}
