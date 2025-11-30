@@ -1,0 +1,16 @@
+  .sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 50;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .hidden-header {
+    transform: translateY(-100%);
+  }
+
+  .visible-header {
+    transform: translateY(0);
+  }
