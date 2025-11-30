@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import ThemeToggle from "./ThemeToggle";
-
+import { Lightbulb } from "lucide-react";
 
 const useScrollDirection = () => {
   const [scrollDirection, setScrollDirection] = useState(null);
@@ -34,9 +34,12 @@ export default function Header() {
         scrollDirection === "down" ? "hidden-header" : "visible-header"
       }`}
     >
-      <p className="text-base-content flex-1 text-xl sm:text-2xl uppercase font-extrabold tracking-wider">
-        OneMind
-      </p>
+      <div className="flex gap-2 flex-1 items-center justify-start">
+        <Lightbulb className="text-primary " size={25} />
+        <p className="text-base-content  text-xl sm:text-2xl uppercase font-extrabold tracking-wider hover:tracking-tighter transition-all duration-150">
+          OneMind
+        </p>
+      </div>
       <ThemeToggle />
     </div>
   );

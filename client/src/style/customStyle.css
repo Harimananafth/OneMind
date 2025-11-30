@@ -1,16 +1,40 @@
-  .sticky-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    z-index: 50;
-    transition: transform 0.3s ease-in-out;
-  }
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 50;
+  transition: transform 0.3s ease-in-out;
+}
 
-  .hidden-header {
-    transform: translateY(-100%);
-  }
+.hidden-header {
+  transform: translateY(-100%);
+}
 
-  .visible-header {
-    transform: translateY(0);
+.visible-header {
+  transform: translateY(0);
+}
+
+.shadow-neon {
+  box-shadow: 8px 8px 0 0 #fcd34d;
+}
+.button-neon {
+  background-color: #a855f7;
+  color: #111827;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  font-weight: 800;
+}
+.button-neon:hover {
+  background-color: #8b5cf6;
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px -5px rgba(168, 85, 247, 0.4);
+}
+
+.animate-blink {
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
   }
+}

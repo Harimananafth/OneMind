@@ -1,4 +1,4 @@
-import { MoonStar, SunDim } from "lucide-react";
+import { Moon, MoonStar, SunDim } from "lucide-react";
 import { useEffect, useState } from "react";
 
 export default function ThemeToggle() {
@@ -25,7 +25,7 @@ export default function ThemeToggle() {
       <SunDim size={25} className="swap-off text-yellow-400" />
 
       {/* moon icon */}
-      <MoonStar size={25} className="swap-on text-sky-600" />
+      <Moon size={25} className="swap-on text-sky-600" />
     </label>
   );
 }
